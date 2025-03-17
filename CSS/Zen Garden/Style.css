@@ -1,3 +1,4 @@
+/*Princiapais*/
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -8,18 +9,22 @@ body {
     padding: 20px;
 }
 
-a {
-    color: #333;
-    text-decoration: none;
-    text-shadow: rgb(70, 100, 125) 1px 1px 1px;
-}
-
-
 header {
     background: hsl(187, 84%, 62%);
     color: #fdfdfd;
     padding: 10px 0;
     text-align: center;
+}
+
+main {
+  text-align: right;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header:hover {
@@ -38,4 +43,61 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
     border-radius: 5px;
+}
+
+/*Títulos*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+    color: #202020;
+    text-shadow: rgb(70, 100, 125) 1px 1px 1px;
+}
+h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+/*Links*/
+a {
+    color: #333;
+    text-decoration: none;
+    text-shadow: rgb(70, 100, 125) 1px 1px 1px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-size: 1.08em;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/*Paragrafos*/
+p { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Resumo do conteúdo*/
+.summary {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 450;
+}
+
+/*Conteúdo Principal*/
+.main {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 400;
 }
