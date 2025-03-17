@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <meta charset="UTF-8">
+        <title>Formulário de pesquisa de satisfação</title>
+    </Head>
+    <body>
+        <h1>Pesquisa de satisfação</h1>
+        <h3>Informações do usuário</h3>
+        <form action="pagina_destino.html" method="POST">
+
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" placeholder="Seu nome" id="nome" required>
+            </p>
+
+            <p>
+                <label for="login">E-mail:</label>
+                <input type="text" placeholder="Seu e-mail" id="login" required>
+            </p>
+            <p>
+                <label for="Telefone">Contato:</label>
+                <input type="Tel" placeholder="Sua número de contato" id="Tel" required>
+                <br>
+            </p>
+            <p>
+                <h4>Localização</h4>
+                <label for="estado">Estado:</label>
+                <select>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </p>
+            <p>
+                <h4>Avaliação do serviço</h4>
+                <input type="radio" id="excelente" name="avaliacao" value="excelente">
+                <label for="excelente">Excelente</label>
+                <input type="radio" id="bom" name="avaliacao" value="bom">
+                <label for="bom">Bom</label>
+                <input type="radio" id="regular" name="avaliacao" value="regular">
+                <label for="regular">Regular</label>
+                <input type="radio" id="ruim" name="avaliacao" value="ruim">
+                <label for="ruim">Ruim</label>
+            </p>
+            <p>
+                <h4>Avaliação do nosso produto</h4>
+                <input type="radio" id="excelente" name="avaliacao" value="excelente">
+                <label for="excelente">Excelente</label>
+                <input type="radio" id="bom" name="avaliacao" value="bom">
+                <label for="bom">Bom</label>
+                <input type="radio" id="regular" name="avaliacao" value="regular">
+                <label for="regular">Regular</label>
+                <input type="radio" id="ruim" name="avaliacao" value="ruim">
+                <label for="ruim">Ruim</label> <input type="radio" id="excelente" name="avaliacao" value="excelente">
+            </p>
+            <p>
+                <h4>Concordo com os termos contratuais</h4>
+                <input type="checkbox" id="termos">
+                <label for="termos">Confirmo que li e Concordo com os termos contratuais</label>
+            </p>
+            <p>    
+                <button type="submit">Enviar</button>
+            </p>
+
+        </form>
+     </body>
+</html>
