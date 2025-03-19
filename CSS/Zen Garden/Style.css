@@ -1,19 +1,19 @@
 /*Princiapais*/
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
+    justify-items: center;
     align-items: center;
+    text-align: center;
     background-color: rgb(245, 253, 254);
     color: #333;
     padding: 20px;
+    max-width: 1300px;
+    margin: auto;
 }
 
 header {
-    background: hsl(187, 84%, 62%);
     color: #fdfdfd;
     padding: 10px 0;
-    text-align: center;
 }
 
 main {
@@ -28,14 +28,16 @@ aside {
 }
 
 header:hover {
-    background: #64cce6;
+    background: #4b8e9f;
     color: #fff;
     opacity: 0.8;
     transition:  1s;
 }
 
+/*rodapé*/
+
 footer {
-    background: #64cce6;
+    background: #4b8e9f;
     color: hwb(0 0% 100%);
     text-align: center;
     align-items: center;
@@ -43,6 +45,50 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
     border-radius: 5px;
+    border: #202020 1px outset;
+}
+
+.main footer a {
+    color: #fdfdfd;
+    background-color: #64cce6;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 4%;
+    padding: 15px;
+    border: #202020 1px solid;
+    border-radius: 15px;
+    
+}
+
+/*Introdução*/
+.intro {
+    height: 550px;
+}
+
+/*Designe archives*/
+
+#design-archives {
+    display: none;
+}
+
+/*Zen-intro header*/
+#zen-intro header {
+    background: #64cce6;
+    color: hwb(0 0% 100%);
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#zen-intro header h1, #zen-intro header h2 {
+    display: inline-block;
+}
+
+#zen-intro header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 /*Títulos*/
@@ -51,7 +97,7 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: center;
     text-align: center;
     color: #202020;
-    text-shadow: rgb(70, 100, 125) 1px 1px 1px;
+    text-shadow: #4b8e9f 1px 1px 1px;
 }
 h1 {
     font-size: 1.8em;
@@ -76,11 +122,17 @@ h3 {
 a {
     color: #333;
     text-decoration: none;
-    text-shadow: rgb(70, 100, 125) 1px 1px 1px;
+    text-shadow: #4b8e9f 1px 1px 1px;
     font-family: 'Segoe UI', Verdana, sans-serif;
     font-size: 1.08em;
     font-style: italic;
     font-weight: 500;
+}
+
+aside ul {
+    list-style-type: none;
+    line-height: 2em;
+
 }
 
 /*Paragrafos*/
