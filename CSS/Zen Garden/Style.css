@@ -55,18 +55,35 @@ header:hover {
     padding-left: 1%;
 }
 
+
+
 /*rodapé*/
 
-footer {
+.supporting footer {
+    display: flex;;
     background: #4b8e9f;
     color: hwb(0 0% 100%);
     text-align: center;
     align-items: center;
-    justify-content: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    justify-content: space-evenly;
     border-radius: 5px;
     border: #202020 1px outset;
+}
+
+.benefits {
+    display: flex;
+    border-top: #1f295c solid 1px;
+    border-bottom: #1f295c solid 1px;
+}
+
+.benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+}
+
+.benefits p {
+    flex-basis: 70%;
 }
 
 .main footer a {
@@ -74,12 +91,30 @@ footer {
     background-color: #64cce6;
     text-decoration: none;
     font-weight: 700;
-    margin: 4%;
-    padding: 15px;
+    margin: -10px;
+    padding: 20px;
     border: #202020 1px solid;
     border-radius: 15px;
     
 }
+
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #1f295c solid 1px;
+    border-bottom: #1f295c solid 1px;
+
+}
+
+.participation h3 {
+    flex-basis: 30%;
+    align-self: center;
+}
+
+.participation p, .participation h3{
+    flex-basis: 50%;
+}
+
 
 /*Introdução*/
 .intro {
@@ -119,6 +154,7 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
     color: #202020;
     text-shadow: #4b8e9f 1px 1px 1px;
+    line-height: 4em;
 }
 h1 {
     font-size: 1.8em;
