@@ -40,6 +40,7 @@ h2 {
 /*Cabeçario*/
 
 #header {
+    position: anchor;
     align-items: center;
     justify-items: center;
     color: rgb(255, 255, 255);
@@ -73,6 +74,7 @@ header strong {
 
 #header-info {
     display: grid;
+    position: relative;
     justify-content: right;
     align-items: right;
     margin-top: -8em;
@@ -161,14 +163,12 @@ header strong {
 /*Destaque*/
 
 #resumo {
-    display: flexbox;
-    position: absolute;
+    position-anchor: fixed;
     text-align: center;
     align-items: center;
     justify-self: center;
     width: 50%;
-    top: 8em;
-    margin-left: 25%;
+    margin-top: -45em;
     padding: 1em;
     color: #1f295c;
     text-align: center;
@@ -336,7 +336,7 @@ header {
 
 #resumo {
     display: fixed;
-    position: inherit;
+    position: static;
     text-align: center;
     align-items: center;
     justify-self: center;
@@ -356,3 +356,102 @@ header {
     text-align: center;
 }
 }
+
+@media (max-width: 1100px) {
+
+    header {
+        position: fixed;
+        width: 100%;
+        margin-top: -1px;
+        margin-left: -1px;
+        margin-right: -1px;
+        font-size: 10px;
+    }
+    #header-foto {
+        position: absolute;
+        justify-content: flex-start; 
+        margin-left: 30px;
+        color: #eeeeee;
+        line-height: 1px;
+        border-color: #fcfcfc 1px solid;
+    }
+    
+    #header-foto img {
+        border-radius: 40%;
+        margin-top: 2em;
+        border-color: #eeeeee 1px solid;
+        box-shadow: 0 0 5px #acd3ff, 0 0 10px #acd3ff, 0 0 10px #acd3ff, 0 0 20px #000000;
+        width: 30px; 
+        height: auto; 
+    }
+    #header-info {
+
+        margin-top: 1em;
+        margin-left: 1em;
+        background-color: #1f295c;
+        border-radius: 5%;
+        justify-self: left;
+        align-self: left;
+        justify-items: left;
+        align-items: left;
+        padding: 10px;
+        gap: 10px;
+        width: 50%;
+        text-align: left;
+    }
+    
+    #header-info nav li {
+        display: flexbox;
+        width: 20%;
+        justify-content: left;
+            font-size: 0.9em; 
+            text-shadow: 1px 1px 1px #acd3ff; 
+            padding: 5px;
+            text-wrap: break-word;
+            line-break: auto;
+    
+    
+            
+        }
+    #header-info nav li a:visited {
+            color: #acd3ff;
+        }
+    
+    #habilidades, #experiencia {
+        max-width: 100%;
+        margin-top: 0;
+        padding: 10;
+        border-right: none;
+        margin-top: 10em;
+        justify-content: left;
+    }
+    #educacao {
+        margin-top: 20em;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #resumo {
+        display: fixed;
+        position: inherit;
+        text-align: center;
+        align-items: center;
+        justify-self: center;
+        width: 90%;
+        top: 2em;
+        margin-left: 5%;
+        padding: 1em;
+        color: #1f295c;
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+    
+    #hobbies {
+        justify-items: center;
+        text-shadow: #acd3ff 0.1cap 1px 1px;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    }
+    
