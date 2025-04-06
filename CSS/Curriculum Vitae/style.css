@@ -433,25 +433,11 @@ header {
     }
     
     #resumo {
-        display: fixed;
-        position: inherit;
-        text-align: center;
-        align-items: center;
-        justify-self: center;
-        width: 90%;
-        top: 2em;
-        margin-left: 5%;
-        padding: 1em;
-        color: #1f295c;
-        font-size: 1em;
-        line-height: 1.2em;
+        display: none;
     }
     
     #hobbies {
-        justify-items: center;
-        text-shadow: #acd3ff 0.1cap 1px 1px;
-        font-size: 0.9em;
-        text-align: center;
+        display: none;
     }
     }
     
