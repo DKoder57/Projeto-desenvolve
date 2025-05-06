@@ -1,0 +1,8 @@
+inicio
+    escreval "Digite um número a ser multiplicado:"
+    leia n
+    dz = n - 1
+    un = 10 - n
+    resultado = (dz * 10) + un
+    escreval "Resultado: ", resultado
+fimalgoritmo
