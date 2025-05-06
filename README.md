@@ -1,6 +1,6 @@
 # Projeto-desenvolve
 
-_Repositório referencia para apresentação de atividades dos módulo do curso de "Web - básico" do programa projeto desenvolve_
+_Repositório referencia para apresentação de atividades dos módulo descritos no título de cada pasta do programa projeto desenvolve_
 
 </header>
 
