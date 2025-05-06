@@ -1,0 +1,5 @@
+1. Obtenha valor de n a ser multiplicado pelo número.
+2. Faça uma operação, subtraia 1 do valor de n e multiplique por 10.
+3. Faça outra operação, subtraia n do valor de 10.
+4. Some os dois resultados.
+5. Exiba o resultado na tela como resultado da multiplicação.
