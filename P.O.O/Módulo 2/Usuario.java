@@ -1,5 +1,6 @@
-public class Usuário extends Pessoa {
+public class Usuario extends Pessoa {
     public usuário(String nome, int idade) {
         super(nome, idade);
     }
+
 }
