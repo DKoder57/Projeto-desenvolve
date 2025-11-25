@@ -1,3 +1,10 @@
-        Livro livro = new Livro("Java Basics", new Autor("Alan Turing", "Inglês"), "Tecnologia", true);
+public class EmprestimoTeste {
+    public static void main(String[] args) {
+        Livro livro = new Livro("Dom Casmurro");
+        Usuario usuario = new Usuario("João");
 
-        Usuario usuario = new Usuario("Gabriel", 21);
+        System.out.println("Livro: " + emprestimo.getLivro());
+        System.out.println("Usuário: " + emprestimo.getUsuario());
+        System.out.println("Disponível: " + livro.isDisponivel());
+    }
+}
