@@ -1,6 +1,12 @@
- Autor autor = new Autor("Jess", "Brasileira");
+public class LivroTeste {
+    public static void main(String[] args) {
+        Livro livro = new Livro("Dom Casmurro");
 
-        Livro livro1 = new Livro("Java Basico", autor, "tecnologia", true);
+        System.out.println("Título: " + livro.getTitulo());
+        System.out.println("Disponível: " + livro.isDisponivel());
 
-        Livro livro2 = new Livro("Java Avançado", autor, "tecnologia", false);
+        livro.setDisponivel(false);
 
+        System.out.println("Disponível após alteração: " + livro.isDisponivel());
+    }
+}
