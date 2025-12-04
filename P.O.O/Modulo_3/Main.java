@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Autor autor = new Autor();
-        Usuario usuario = new Usuario();
-        Livro livro = new Livro();
+        Autor autor = new Autor(null, 0, false);
+        Usuario usuario = new Usuario(null, 0);
+        Livro livro = new Livro(null, null, autor);
 
         Emprestimo emprestimo = new Emprestimo(
             livro, usuario

@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Autor autor = new Autor("Ray Bradbury", 40); // Corrigido nome do autor
+        Autor autor = new Autor("Ray Bradbury", 40);  
         Usuario usuario = new Usuario("João", 25);
-        Livro livro = new Livro("Fahrenheit 451", "Romance", autor); // Corrigido título e gênero
+        Livro livro = new Livro("Fahrenheit 451", "Romance", autor); 
 
         Emprestimo emprestimo = new Emprestimo(
             livro, usuario
