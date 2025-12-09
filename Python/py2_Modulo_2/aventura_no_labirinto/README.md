@@ -1,0 +1,1 @@
+# Instuções de como iniciar o jogo.
